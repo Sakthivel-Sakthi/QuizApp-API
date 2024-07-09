@@ -1,4 +1,4 @@
-package coms.sakthi.quiz.QuestionEntity;
+package coms.sakthi.quiz.Model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity(name = "questions")
-public class QuestionEntity {
+public class Question {
 
 	public Integer getId() {
 		return id;
